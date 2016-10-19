@@ -21,6 +21,7 @@
         <engine name="cordova" version=">=3.5.0" />
     </engines>
     <!-- js module-->
+    <js-module src="www/ajax.build.js" name="ajax.build"/>
     <js-module src="www/wechat.js" name="Wechat">
         <clobbers target="Wechat" />
     </js-module>
